@@ -1156,7 +1156,6 @@
       <string id="acc_play">play</string>
       <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
-      <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
       <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
@@ -1166,12 +1165,13 @@
       <string id="acc_search_input">search</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="acc_previous">previous</string>
       <string id="slide_text_chk">Slide Text</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
       <string id="acc_submit">submit</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
       <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
@@ -1187,11 +1187,19 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6SkzrNCe8au.6JJMS1wZSKR" displaytext="Untitled Slide" expand="false" type="slide" />
+        <slidelink slideid="_player.6SkzrNCe8au" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SkzrNCe8au.6L89ULNBRhL" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6SkzrNCe8au.6JJMS1wZSKR" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6SkzrNCe8au.6gUR6lyj2GD" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
       </links>
     </outline>
     <search>
+      <slidetext slideid="6SkzrNCe8au.6L89ULNBRhL" slidebank="false" type="slide">lorem ipsum dolor sit amet, consectetuer adipiscing elit. maecenas porttitor congue massa. fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. nunc viverra imperdiet enim. fusce est. vivamus a tellus. pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. proin pharetra nonummy pede. mauris et orci. lorem ipsum dolor sit amet, consectetuer adipiscing elit. maecenas porttitor congue massa. fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. nunc viverra imperdiet enim. fusce est. vivamus a tellus. pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. proin pharetra nonummy pede. mauris et orci. </slidetext>
       <slidetext slideid="6SkzrNCe8au.6JJMS1wZSKR" slidebank="false" type="slide">now that you have an understanding of the special requirements related to investments, review the scenario below before answering two questions on the following screens. lorem ipsum dolor sit amet, consectetuer adipiscing elit. maecenas porttitor congue massa. fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. nunc viverra imperdiet enim. fusce est. vivamus a tellus. pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. proin pharetra nonummy pede. mauris et orci. </slidetext>
+      <slidetext slideid="6SkzrNCe8au.6gUR6lyj2GD" slidebank="false" type="slide">excel method caseware method lorem ipsum dolor sit amet, consectetuer adipiscing elit. maecenas porttitor congue massa. fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. nunc viverra imperdiet enim. fusce est. vivamus a tellus. pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. proin pharetra nonummy pede.  manual method </slidetext>
     </search>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Arial' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
