@@ -1,0 +1,1 @@
+var tellfortune = function ()
